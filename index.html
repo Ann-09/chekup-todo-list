@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="https://i.pinimg.com/originals/57/42/40/5742405e2a63dc61e89a8b0f1d276e95.jpg" width="500px" alt="" class="image" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="registration">
+        <h2>Регистрация</h2>
+        <form class="registration__form" action="" method="POST">
+            <label for="registration__form_username">Имя пользователя:</label>
+            <input type="text" id="registration__form_username" name="username" placeholder="Введите имя" required>
+            <label for="registration__form_password">Пароль:</label>
+            <input type="password" id="registration__form_password" name="password" placeholder="Введите пароль" required>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <h2>Авторизация</h2>
+        <form class="registration__form" action="" method="POST">
+            <label for="registration__form_username">Имя пользователя:</label>
+            <input type="text" id="registration__form_username" name="username" placeholder="Введите имя" required>
+            <label for="registration__form_password">Пароль:</label>
+            <input type="password" id="registration__form_password" name="password" placeholder="Введите пароль" required>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <h2>Ваши задачи</h2>
+            <input type="text" id="taskInput" placeholder="Добавить задачу">
+            <button id="addTask">Добавить</button>
+            <ul id="taskList"></ul>
+        </section>
+    </div>
+</body>
+</html>

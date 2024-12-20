@@ -1,0 +1,17 @@
+html {
+    display: table;
+    margin: auto;}
+
+body {
+    text-align: center;}
+
+h2 {color: cadetblue;
+    font-style: italic;}
+
+.image {
+        width: 300px;
+        border-radius: 80px;}
+
+@media (max-width: 600px) {
+    body { font-size: 14px; }
+    img { width: 90%; }}
